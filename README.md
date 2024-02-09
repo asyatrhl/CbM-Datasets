@@ -2,7 +2,7 @@
 
 ### Raw Data Properties
 
-Sample motor data is collected using SpectraQuest Machinery Fault Simulator that has general setup view: 
+Sample motor data is collected using SpectraQuest Machinery Fault Simulator that has a general setup view: 
 
 <p align="center">
     <img src="docs/SampleMotorDataLimerick_generalSetup.png" width="200">
@@ -27,7 +27,7 @@ Faults tested include a variety of mechanical faults as follows:
 
 </span>
 
-For the imbalance faults, varying loads are placed in the setup, sample can be seen as follows:
+For the imbalance faults, varying loads are placed in the setup, the sample can be seen as follows:
 <p align="center">
     <img src="docs/SampleMotorDataLimerick_sampleImbalance.png" width="200">
 
