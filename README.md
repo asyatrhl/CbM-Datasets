@@ -1,16 +1,14 @@
-## Dataset Information
+# Motor Fault Sample Dataset
+
+## Sample Dataset Information
 
 ### Raw Data Properties
 
-Sample motor data is collected using SpectraQuest Machinery Fault Simulator that has a general setup view: 
+Sample motor data is collected using a SpectraQuest Machinery Fault Simulator. The setup looks as follows:
 
-<p align="center">
-    <img src="docs/SampleMotorDataLimerick_generalSetup.png" width="200">
-</p>
+![SampleMotorDataLimerick - Overview](resources/SampleMotorDataLimerick_generalSetup.png)
 
 Faults tested include a variety of mechanical faults as follows:
-
-<span style="font-size:0.8em;">
 
 - Very Light Imbalance
 - Light Imbalance
@@ -25,27 +23,18 @@ Faults tested include a variety of mechanical faults as follows:
 - Light Ball Bearing Fault
 - Heavy Ball Bearing Fault
 
-</span>
+For imbalance faults, varying loads are applied in the setup, a sample can be seen here:
 
-For the imbalance faults, varying loads are placed in the setup, the sample can be seen as follows:
-<p align="center">
-    <img src="docs/SampleMotorDataLimerick_sampleImbalance.png" width="200">
+<img src="resources/SampleMotorDataLimerick_sampleImbalance.png" alt="Sample Imbalance" style="zoom:33%;" />
 
-</p>
+Details for other fault types:
+<img src="resources/SampleMotorDataLimerick_otherFaults.png" alt="Other Faults" style="zoom: 33%;" />
 
-For the other fault types, details can be seen from the below Figure:
-<p align="center">
-    <img src="docs/SampleMotorDataLimerick_otherFaults.png" width="400">
+Each fault was tested at 600, 1200, 1800, 2400 and 3000 RPM and tested both with and without an additional 11 lb (5 kg) load on the shaft. ADXL356 sensor data is used for vibration raw data.
 
-</p>
+For the ADXL356 sensor, the sampling frequency was **20 kHz** and data csv files recorded for **2 seconds** in the X, Y and Z directions.
 
+Data files are saved in `.csv` format with the following naming convention:
 
-Each fault was tested at 600, 1200, 1800, 2400 & 3000 RPM and tested both with and without an additional 11lb load on the shaft. ADXL356 sensor data is used for vibration raw data.
+![File Naming Convention](resources/SampleMotorDataLimerick_fileNamingConvention.png)
 
-For ADXL356 sensor, the sampling frequency was **20kHz** and data csv files recorded for **2 sec** in X, Y and Z direction.
-
-Data files are saved in.csv format with the following naming convention:
-
-<p align="center">
-    <img src="docs/SampleMotorDataLimerick_fileNamingConvention.png" width="500">
-</p>
